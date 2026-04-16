@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CSS Variables */
+:root {
+  --surface-default: #f5f3f1;
+  --surface-container: #fffbf8;
+  --text-primary: #000000;
+  --text-secondary: #404040;
+  --text-tertiary: #757575;
+}
+
+/* Base styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--surface-default);
+  color: var(--text-primary);
+}
+
+/* Utility classes */
+.surf-default {
+  background-color: var(--surface-default);
+}
+
+.surf-container {
+  background-color: var(--surface-container);
+}
+
+.text-primary {
+  color: var(--text-primary);
+}
+
+.text-secondary {
+  color: var(--text-secondary);
+}
+
+.text-tertiary {
+  color: var(--text-tertiary);
+}
+
+.status-available {
+  color: #22c55e;
+}
+
+.status-busy {
+  color: #ba0013;
+}
+
+.status-offline {
+  color: #d1d5db;
+}
+
